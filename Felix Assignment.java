@@ -7,11 +7,11 @@ public class LibraryFine{
     double LibraryFine, 
     double bookID, returnDate, dueDate;
     //prompt user user to enter date
-    system.out.ln("Enter book ID:");
+    system.out.println("Enter book ID:");
     bookID = scanner.nextDouble();
-    system.out.ln("Enter return date (DD-MM-YYYY):");
+    system.out.println("Enter return date (DD-MM-YYYY):");
     returnDate = scanner.nextDouble();
-    system.out.ln("Enter due date (DD-MM-YYYY):");
+    system.out.println("Enter due date (DD-MM-YYYY):");
     dueDate = scanner next.Double();
 
     if(days<=7){
@@ -26,12 +26,13 @@ public class LibraryFine{
        double overdueDate = returnDate _ duedate;
        double fineRate = overdueDate/LibabryFine
 }
-  system.out.ln("bookID:");
-  system.out.ln("dueDate:");
-  system.out.ln("returnDate:");
-  system.out.ln("overdueDate:");
-  system.out.ln("LibraryFine:");
-  system.out.ln("fineRate:");
+  System.out.println("bookID:");
+  System.out.println("dueDate:");
+  System.out.println("returnDate:");
+  System.out.println("overdueDate:");
+  System.out.println("LibraryFine:");
+  System.out.println("fineRate:");
 
   scanner.close();
 } 
+
