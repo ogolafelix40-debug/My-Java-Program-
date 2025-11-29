@@ -22,8 +22,10 @@ public class Coffee{
 
         System.out.println("Display Details");
         order1.display();
+        System.out.println("---------------");  
         order2.display();
 
         
     }
 }
+
